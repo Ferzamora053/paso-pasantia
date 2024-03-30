@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Container, Card, Form, Button, FloatingLabel } from "react-bootstrap";
 import "../CSS/LoginPage.css";
 import "../CSS/LoginRegisterCards.css";
+import "../CSS/images.css";
 import logo from "../images/logo_pregrado.png";
 
 const LoginPage = () => {
