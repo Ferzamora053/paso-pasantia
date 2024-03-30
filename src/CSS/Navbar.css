@@ -1,14 +1,14 @@
 .navbar {
-    background-color: black;
+    background-color: rgb(0, 255, 255);
 }
 
 #brand-link {
-    color: white;
+    color: black;
     font-size: calc(14px + 0.7vw);
 }
 
 #NavLink {
-    color: white;
+    color: black;
     font-size: calc(12px + 0.5vw);
     transition: 0.3s;
 }

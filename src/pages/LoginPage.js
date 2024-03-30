@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Container, Card, Form, Button, FloatingLabel } from "react-bootstrap";
 import "../CSS/LoginPage.css";
 import "../CSS/LoginRegisterCards.css";
+import logo from "../images/logo_pregrado.png";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -10,7 +11,7 @@ const LoginPage = () => {
   return (
     <Container className="loginContent">
       <Card className="custom-card">
-        <h1>Logo WEB.c</h1>
+        <Card.Img variant="top" src={logo} className="logo" />
         <h1 className="mt-4 mb-5">¡Bienvenido a Pasantías Webcursos UAI!</h1>
         <Form>
           <FloatingLabel controlId="floatingInputGrid" label="Correo electrónico" className="mb-3 customFloatingLabel" id="">
