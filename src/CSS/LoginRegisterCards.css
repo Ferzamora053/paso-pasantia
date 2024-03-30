@@ -1,0 +1,59 @@
+.custom-card {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-card {
+        padding: 10px;
+    }
+}
+
+.custom-card h1 {
+    font-size: calc(24px + 1vw);
+}
+
+.custom-card a {
+    font-size: calc(12px + 0.3vw);
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.custom-card a:hover {
+    color: #007bff;
+}
+
+.customFloatingLabel {
+    font-size: min(16px, calc(12px + 0.2vw));
+}
+
+#btn-login {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: calc(12px + 0.4vw);
+    transition: 0.4s;
+}
+
+#btn-register {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: calc(12px + 0.4vw);
+    transition: 0.4s;
+}
+
+#btn-login:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color:rgb(212, 210, 210);
+}
+
+#btn-register:hover {
+    background-color: #0056b3;
+    border-color: #004eaa;
+    color:rgb(212, 210, 210);
+}

@@ -1,0 +1,18 @@
+.navbar {
+    background-color: black;
+}
+
+#brand-link {
+    color: white;
+    font-size: calc(14px + 0.7vw);
+}
+
+#NavLink {
+    color: white;
+    font-size: calc(12px + 0.5vw);
+    transition: 0.3s;
+}
+
+#NavLink:hover {
+    color: #dddddd;
+}

@@ -1,0 +1,19 @@
+.registerContainer{
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .registerContent {
+        height: auto;
+        padding: 20px;
+    }
+}
